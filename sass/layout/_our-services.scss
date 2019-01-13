@@ -1,0 +1,53 @@
+.services{
+	@media all and (max-width:768px){
+			display: flex;
+			flex-direction: column-reverse;
+		}
+
+	
+	&__card{
+		background-color: $color-white;
+		
+		&:not(:last-child){
+			margin-bottom: 2rem;
+		}
+		width: 100%;
+		height: 10rem;
+		box-shadow: 0 2px 5px 2px rgba(0,0,0,.5);
+
+	}
+	&__card-container{
+		height: 100%;
+		@media screen and (max-width:768px){
+			//order: 5;
+		}
+	}
+	&__title{
+		position: relative;
+		text-align: center;
+
+		@media screen and (max-width:768px){
+			margin-bottom: 5rem;
+		}
+	}
+	&__name-wrapper{
+		width: calc(100% - 100px);
+		padding-top: 1rem;
+	}
+	&__name{
+		font-family: 'Raleway', sans-serif;
+		cursor: pointer;
+		font-size: 1.4rem;
+		line-height: 2.7rem;
+		font-weight: 100;
+		padding: .5rem 1rem;
+	}
+	&__icon-wrapper{
+		width: 10rem;
+		border-left: 1px solid $color-black;
+	}
+	&__icon{
+
+	}
+
+}

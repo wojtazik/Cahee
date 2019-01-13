@@ -1,0 +1,21 @@
+.gallery{
+	&__image{
+		display: block;
+	    width: 100%;
+	    height: auto;
+	    box-shadow: 0 10px 20px rgba(0,0,0,.19), 0 6px 6px rgba(0,0,0,.23);
+	}
+	&__button-wrapper{
+		padding-top: 5rem;
+	}
+	&__more-button{
+		padding: 1.5rem 3rem;
+		background-color: #5685A3;
+		text-transform: uppercase;
+		color: $color-white;
+		&:hover,
+		&:focus{
+			color: $color-white;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.footer{
+	font-weight: 200;
+	letter-spacing: 1px;
+	font-size: 1.4rem;
+
+	& > *{
+		color: $color-grey;
+	}
+
+	& div{
+		@media screen and (max-width: $bp-small) {
+			margin-bottom: 3rem;
+		}
+	}
+
+	& div:first-child{
+		@media screen and (max-width: $bp-small) {
+			margin-top: 3rem;
+		}
+	}
+
+	&__logo{
+		font-family: 'Pacifico', cursive;
+		line-height: 25px;
+		font-weight: 400;
+		font-size: 2.5rem;
+	}
+}

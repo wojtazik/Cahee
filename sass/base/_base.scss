@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+	box-sizing:inherit;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a > * {
+	text-decoration: none !important;
+	color: black !important; 
+}
+
+
+html{
+	box-sizing:border-box;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+main{
+	margin: 0 0 !important;
+	width: 100%;
+}

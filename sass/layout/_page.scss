@@ -1,0 +1,32 @@
+.page-section{
+	&--about{
+		background-color: #00c4c4;
+		padding: 1rem 8%;
+	}
+	&--services{
+		background-color: #70bfff;
+		padding: 10rem 8%;
+	}
+	&--gallery{
+		background-color: #FEE92E;
+		padding: 10rem 8%;
+	}
+
+	&--blog{
+		background-color: #b07cf7;
+		padding: 10rem 8%;
+	}
+	&--contact{
+		padding: 10rem 8%;
+		    background: url(../img/contact-bg.png) no-repeat;
+		    background-position: top center;
+		    background-attachment: fixed;
+		    background-size: cover;
+		    position: relative;
+	}
+
+	&--footer{
+		padding: 2rem 8%;
+		background-color: #262626;
+	}
+}

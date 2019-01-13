@@ -1,0 +1,114 @@
+.btn{
+	
+	outline: none;
+	border: none;
+	overflow: hidden;
+	padding: 1.3rem 1rem;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 300;
+	line-height: 2.7rem;
+	display: inline-block !important;
+	
+	&:focus{
+		outline: none !important;
+		border: none !important;
+	}
+}
+textarea{
+	resize: none;
+}
+
+.form-control:focus,.form-control:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.form-control:focus,.form-control:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.btn-main{
+	background-color: rgba(255,96,51,.7);
+	opacity: 1;
+	transition: all .3s linear;
+	box-shadow: .5px 2px 5px 0px rgba(0,0,0,0.62);
+	color: $color-white;
+	width:20rem;
+	
+	&:hover{
+		background-color: rgba(255,100,50,1);
+		border: none;
+		color: $color-white;
+	}
+	&:active,
+	&:focus{
+		box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.62);
+	}
+}
+
+//BASIC HTML ELEMENTS
+
+.heading-2{
+	font-size: 9rem;
+	font-weight: 700;
+	line-height: 57px;
+	margin-bottom: 5rem;
+
+
+	&--white{
+		color: $color-white;
+	}
+
+	&--black{
+		color: $color-black;
+	}
+
+	&--sm{
+		font-size: 4rem;
+		font-weight: 300;
+	}
+
+	@media screen and (max-width: $bp-large){
+		font-size: 6.5rem;
+		margin-bottom: 3rem;
+	}
+	@media screen and (max-width: $bp-medium){
+		align-self: center;
+	}
+
+	@media screen and (max-width: $bp-extra-small){
+			font-size: 6rem;
+		}
+
+}
+
+.elem-p{
+	font-size: 1.7rem;
+	font-weight: 200;
+	line-height: 3.2rem;
+	margin-bottom: 2rem;
+	letter-spacing: .5px;
+
+	&--white{
+		color: $color-white;
+	}
+	&--black{
+		color: $color-black;
+	}
+
+	&--bold{
+		font-weight: 300;
+	}
+
+	&--bold400{
+		font-weight: 400;
+	}
+
+	@media screen and (max-width: $bp-large){
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+	
+}

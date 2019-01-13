@@ -1,0 +1,59 @@
+.contact{
+	&__form{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	&__form-item{
+		height: 5rem;
+		padding: 2rem 2rem;
+		font-size: 1.4rem;
+		background-color: rgba(0, 196, 195, 0.5);
+		border: none;
+		color: $color-white !important;
+		font-weight: 400;
+		border-radius: 0;
+		letter-spacing: .5px;
+
+		&:hover,&:active,&:focus{
+			background-color: rgba(10, 176, 195, 0.6);
+			color: $color-white !important;
+			box-shadow: inset 3px 0px 0px 0px rgba(11,106,195,0.8);
+		}
+	}
+	
+	&__wrapper{
+			padding-left: 10% !important;
+
+			& ul{
+				list-style-type: none;
+			}
+		}
+	
+	&__form-item::placeholder{
+		color: $color-white;
+	}
+
+	&__item{
+		font-size: 2rem;
+		margin-bottom: 2rem;
+
+		& b{
+			text-transform: uppercase;
+			font-weight: 300;
+		}
+	}
+
+
+
+}
+
+	
+	
+	
+
+
+.form-group{
+	margin-bottom: 3rem;
+}
+

@@ -1,0 +1,394 @@
+<!doctype html>
+<html>
+<head>
+	<title>Cahee - Weekly WebDev Challenge #2</title>
+	<meta charset="utf-8">
+	<meta lang="en-EN">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,800,900" rel="stylesheet">
+
+
+</head>
+<body>
+
+	<header class="page-section header" id="home">
+		<nav class="header__navigation container-fluid ">
+			<div class="row d-flex flex-row justify-content-between align-content-center">
+				
+				<div class=" col-xs-2 d-flex  header__logoc">
+					<a href="#" class="header__logo align-middle">Cahee</a>
+				</div>
+
+				<div class="dropdown dropleft header__dropdown d-flex align-content-center justify-content-center d-md-none col-xs-1">
+					<button class="button header__dropdown-b btn dropdown-toggle" data-toggle="dropdown">
+						<span class="vertical-bar">&nbsp;</span>
+					</button>
+
+					<div class="dropdown-menu header__dropdown-menu text-center">
+					    <a class="dropdown-item header__dropdown-menu--item expand" href="#home">Home</a>
+					    <a class="dropdown-item header__dropdown-menu--item expand" href="#about">About</a>
+					    <a class="dropdown-item header__dropdown-menu--item expand" href="#services">Services</a>
+					    <a class="dropdown-item header__dropdown-menu--item expand" href="#gallery">Gallery</a>
+					    <a class="dropdown-item header__dropdown-menu--item expand" href="#blog">Blog</a>
+					    <a class="dropdown-item header__dropdown-menu--item expand" href="#contact">Contact</a>
+					    
+					  </div>
+				</div>
+
+
+				
+				<div class=" d-none d-md-block header__menu">
+					<ul class="header__menulist">
+						<li class="header__menuitem expand-up"><a href="#home">Home</a></li>
+						<li class="header__menuitem expand-up"><a href="#about">About</a></li>
+						<li class="header__menuitem expand-up"><a href="#services">Services</a></li>
+						<li class="header__menuitem expand-up"><a href="#gallery">Gallery</a></li>
+						<li class="header__menuitem expand-up"><a href="#blog">Blog</a></li>
+						<li class="header__menuitem expand-up"><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+				
+			</div>		
+		</nav>
+
+		<section class="row header__info">
+				<div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 header__textbox d-flex flex-column align-content-center justify-content-center">
+					<h1 class="header__title">Fresh life</h1>
+					<p class="header__description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+					<button class=" btn-main  btn btn-shadow" type="button">GET FREE NOW</button>
+				</div>
+				<div class="col-12 header__scrollbox d-flex flex-row justify-content-center align-content-center">
+					<a class="header__scroll-icon" href="#about"></a>
+				</div>
+			
+		</section>	
+	</header>
+	<main class="container-fluid">
+		<section class="row page-section--about about" id="about">
+			<div class="col-xs-12 col-sm-12 col-md-6 about__image">
+				<img src="img/about-img.png" alt="Fresh fruits" class="img-responsive about__img img-fluid">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 d-flex flex-column justify-content-center">
+				<h2 class="heading-2 heading-2--white">About Us</h2>
+				<p class="elem-p elem-p--white">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+				<p class="elem-p elem-p--white">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+			</div>
+		</section>
+		<section class="row page-section--services services" id="services">
+			<div class="col-sm-12 col-md-7 col-lg-5 .services__card-container">
+				<div class="services__card d-flex flex-row">
+					<div class="services__name-wrapper d-flex justify-content-center align-items-center">
+						<p class="services__name">Online shopping</p>
+					</div>
+					<div class="services__icon-wrapper d-flex justify-content-center align-items-center">
+						<img class="services__icon img-fluid" src="img/icon-1.png" alt="list icon"></img>
+					</div>
+				</div>
+				<div class="services__card d-flex flex-row">
+					<div class="services__name-wrapper d-flex justify-content-center align-items-center">
+						<p class="services__name">Quality product</p>
+					</div>
+					<div class="services__icon-wrapper d-flex justify-content-center align-items-center">
+						<img class="services__icon img-fluid" src="img/icon-2.png" alt="list icon"></img>
+					</div>
+				</div>
+				<div class="services__card d-flex flex-row">
+					<div class="services__name-wrapper d-flex justify-content-center align-items-center">
+						<p class="services__name">Domestic & International Delivery</p>
+					</div>
+					<div class="services__icon-wrapper d-flex justify-content-center align-items-center">
+						<img class="services__icon img-fluid" src="img/icon-3.png" alt="list icon"></img>
+					</div>
+				</div>
+				<div class="services__card d-flex flex-row">
+					<div class="services__name-wrapper d-flex justify-content-center align-items-center">
+						<p class="services__name">Well organised</p>
+					</div>
+					<div class="services__icon-wrapper d-flex justify-content-center align-items-center">
+						<img class="services__icon img-fluid" src="img/icon-4.png" alt="list icon"></img>
+					</div>
+				</div>
+			</div>
+			<div class="hidden-xs col-md-5 col-lg-7 services__title center-block">
+				<h2 class="heading-2 heading-2--white absolutely-centered w-100">Our services</h2>
+				<img src="img/our-services-img.png" class="services__title-background img-fluid img-responsive">
+			</div>
+		</section>
+
+		<section class="row page-section--gallery gallery" id="gallery">
+				<div class="row gallery__text-wrapper">
+					<div class="col-xs-12 text-center">
+						<h2 class="heading-2 heading-2--black">Gallery</h2>
+						<p class="elem-p elem-p--black text-padding text-center">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+				<div class="container gallery__images">
+					<div class="row">
+						<div class="col-md-8 col-sm-12 mb3r">
+							<a href="img/gallery-xl-1.png" class="fancybox" rel="ligthbox">
+								<img src="img/gallery-xl-1.png" class="gallery__image ">
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-12 mb3r d-flex flex-column justify-content-center">
+							<a href="img/gallery-s-1.png" class="fancybox" rel="ligthbox">
+								<img src="img/gallery-s-1.png" class="gallery__image mb3r ">
+							</a>
+
+							<a href="img/gallery-s-2.png" class="fancybox" rel="ligthbox">
+								<img src="img/gallery-s-2.png" class="gallery__image ">
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-12 mb3r">
+							<a href="img/gallery-m-1.png" class="fancybox" rel="ligthbox">
+								<img src="img/gallery-m-1.png" class="gallery__image ">
+							</a>
+						</div>
+						<div class="col-md-6 col-sm-12 mb3r">
+							<a href="img/gallery-m-2.png" class="fancybox" rel="ligthbox">
+								<img src="img/gallery-m-2.png" class="gallery__image ">
+							</a>	
+						</div>
+					</div>
+					<div class="gallery__hidden" id="show-hide">
+						<div class="row">
+							<div class="col-md-6 col-sm-12 mb3r">
+								<a href="img/gallery-hid-md-1.png" class="fancybox" rel="ligthbox">
+									<img src="img/gallery-hid-md-1.png" class="gallery__image h40rem">
+								</a>	
+							</div>
+							<div class="col-md-6 col-sm-12 mb3r">
+								<a href="img/gallery-hid-md-2.png" class="fancybox" rel="ligthbox">
+									<img src="img/gallery-hid-md-2.png" class="gallery__image h40rem">
+								</a>	
+							</div>
+							<div class="col-md-6 col-sm-12 mb3r">
+								<a href="img/gallery-hid-md-3.png" class="fancybox" rel="ligthbox">
+									<img src="img/gallery-hid-md-3.png" class="gallery__image h40rem">
+								</a>	
+							</div>
+							<div class="col-md-6 col-sm-12 mb3r">
+								<a href="img/gallery-hid-md-4.png" class="fancybox" rel="ligthbox">
+									<img src="img/gallery-hid-md-4.png" class="gallery__image h40rem">
+								</a>	
+							</div>
+						</div>
+					</div>
+					<div class="row gallery__button-wrapper">
+						<div class="col-sm-12 d-flex flex-row justify-content-center align-items-center ">
+							<button type="submit" class="gallery__more-button btn btn-default btn-shadow" id="showmore">View More</button>
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<section class="row page-section--subscribe subscribe" id="subscribe">
+			<div class="col-sm-12 col-md-offset-1 col-md-11 col-lg-offset-2 col-lg-10 d-flex flex-column justify-content-center subscribe__wrapper">
+				<h2 class="heading-2--black heading-2 heading-2--sm mb-2">Subscribe To Us</h2>
+				<p class="elem-p--black elem-p elem-p--bold subscribe__text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<form action="#" class="d-flex flex-row subscribe__form">
+					<input type="email" name="email" placeholder="Your e-mail adress..." class="form-control subscribe__email">
+					<button class="btn subscribe__button" type="submit">subscribe</button>
+				</form>
+			</div>
+		</section>
+
+		<section class="row page-section--blog blog" id="blog">
+			<div class="col-sm-12 d-flex flex-column justify-content-center align-items-center">
+				<h2 class="heading-2 heading-2--white">Blog</h2>
+				<p class="elem-p elem-p--white blog__text">
+					Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+				</p>
+			</div>
+
+			<div class="col-sm-12">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-4 col-md-12 blog__item  d-lg-block d-flex flex-column align-content-center ">
+							<a class="blog__post" href="#">
+								<img class="img-responsive blog__img" src="img/blog-1.png"></img>
+								<span class="blog__date">14 DEC</span>
+								<div class="blog__post-title-wrapper">
+									<h4 class="blog__post-title">Green Smoothies: Too Much of a Good Thing?</h4>
+									<p class="blog__author">By Auskteez - 2 Hours ago</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-12 blog__item  d-lg-block d-flex flex-column align-content-center ">
+							<a class="blog__post" href="#">
+								<img class="img-responsive blog__img" src="img/blog-2.png"></img>
+								<span class="blog__date">12 DEC</span>
+								<div class="blog__post-title-wrapper">
+									<h4 class="blog__post-title">Growing Food and a "Thirst" for Innovation</h4>
+									<p class="blog__author">By Auskteez - 2 Days ago</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-12 blog__item  d-lg-block d-flex flex-column align-content-center ">
+							<a class="blog__post" href="#">
+								<img class="img-responsive blog__img" src="img/blog-3.png"></img>
+								<span class="blog__date">7 DEC</span>
+								<div class="blog__post-title-wrapper">
+									<h4 class="blog__post-title">Pesticides & Food: What You Need to Know</h4>
+									<p class="blog__author">By Auskteez - 1 Week ago</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="blog__hidden" id="show-hide1">
+						<div class="row">
+							<div class="col-lg-4 col-md-12 blog__item  d-lg-block d-flex flex-column align-content-center ">
+								<a class="blog__post" href="#">
+									<img class="img-responsive blog__img" src="img/blog-1.png"></img>
+									<span class="blog__date">5 DEC</span>
+									<div class="blog__post-title-wrapper">
+										<h4 class="blog__post-title">Green Smoothies: Too Much of a Good Thing?</h4>
+										<p class="blog__author">By Auskteez - 1 Week ago</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-12 blog__item  d-lg-block d-flex flex-column align-content-center ">
+								<a class="blog__post" href="#">
+									<img class="img-responsive blog__img" src="img/blog-2.png"></img>
+									<span class="blog__date">2 DEC</span>
+									<div class="blog__post-title-wrapper">
+										<h4 class="blog__post-title">Growing Food and a "Thirst" for Innovation</h4>
+										<p class="blog__author">By Auskteez - 1 Week ago</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-12 blog__item  d-lg-block d-flex flex-column align-content-center ">
+								<a class="blog__post" href="#">
+									<img class="img-responsive blog__img" src="img/blog-3.png"></img>
+									<span class="blog__date">30 NOV</span>
+									<div class="blog__post-title-wrapper">
+										<h4 class="blog__post-title">Pesticides & Food: What You Need to Know</h4>
+										<p class="blog__author">By Auskteez - 2 Weeks ago</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-4 col-md-12 blog__item  d-lg-block d-flex flex-column align-content-center ">
+								<a class="blog__post" href="#">
+									<img class="img-responsive blog__img" src="img/blog-1.png"></img>
+									<span class="blog__date">5 DEC</span>
+									<div class="blog__post-title-wrapper">
+										<h4 class="blog__post-title">Green Smoothies: Too Much of a Good Thing?</h4>
+										<p class="blog__author">By Auskteez - 1 Week ago</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-12 blog__item  d-lg-block d-flex flex-column align-content-center ">
+								<a class="blog__post" href="#">
+									<img class="img-responsive blog__img" src="img/blog-2.png"></img>
+									<span class="blog__date">2 DEC</span>
+									<div class="blog__post-title-wrapper">
+										<h4 class="blog__post-title">Growing Food and a "Thirst" for Innovation</h4>
+										<p class="blog__author">By Auskteez - 1 Week ago</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-12 blog__item  d-lg-block d-flex flex-column align-content-center ">
+								<a class="blog__post" href="#">
+									<img class="img-responsive blog__img" src="img/blog-3.png"></img>
+									<span class="blog__date">30 NOV</span>
+									<div class="blog__post-title-wrapper">
+										<h4 class="blog__post-title">Pesticides & Food: What You Need to Know</h4>
+										<p class="blog__author">By Auskteez - 2 Weeks ago</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="row blog__button-wrapper">
+						<div class="col-sm-12 d-flex flex-row justify-content-center align-items-center ">
+							<button type="submit" class="blog__more-button btn btn-default btn-shadow" id="showmore1">View More</button>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+		<section class="row page-section--contact contact" id="contact">
+			<div class="row contact__text-wrapper">
+				<div class="col-12 text-center">
+					<h2 class="heading-2 heading-2--black">Contact</h2>
+					<p class="elem-p elem-p--black elem-p--bold text-padding--big text-center">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-6 contact__form-wrapper">
+						<form action="#" class="contact__form d-flex flex-column ">
+							<div class="form-group">
+								<input class="form-control contact__form-item" type="text" name="name" placeholder="Your name..." required="">
+							</div>
+							<div class="form-group">	
+								<input class="form-control contact__form-item" type="email" name="email" placeholder="Your e-mail..." required="@">
+							</div>
+							<div class="form-group">
+								<input class="form-control contact__form-item" type="phone" name="phone" placeholder="Your phone number..."required="">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control contact__form-item" rows="10" placeholder="Your message..." required=""></textarea>
+							</div>
+						</form>
+					</div>
+					<div class="col-12 col-md-6 contact__wrapper text-center text-md-left">
+						<ul>
+							<li class="contact__item"><b>adress</b><br>123 City Name, Street, Site, Country</li>
+							<li class="contact__item"><b>email</b><br>cahee@domain.com</li>
+							<li class="contact__item"><b>phone</b><br>+012 345 6789</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="container-fluid">
+		<div class="row page-section--footer footer">
+			<div class="col-md-4 text-center">
+				<p class="footer__left"> &copy; 2019 Patryk Wojtas <br> Contact: wojtazik@gmail.com. All rights reserved</p>
+			</div>
+			<div class="col-md-4 text-center d-flex flex-column align-items-center justify-content-center"><p class="footer__logo">Cahee</p></div>
+			<div class="col-md-4 text-center d-flex flex-column justify-content-center align-items-center">
+				<p class="footer__right">Website made with <span style="color: #FE2B58; font-weight: 700;">love</span> by Patryk Wojtas</p>
+				<p class="footer__right">PSD made with <span style="color: #FE2B58; font-weight: 700;">love</span> by Auskteez</p>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+
+
+
+</body>
+</html>
