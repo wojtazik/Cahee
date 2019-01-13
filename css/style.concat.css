@@ -184,15 +184,18 @@ textarea::placeholder {
 .fill {
   object-fit: cover; }
 
-.h40rem {
-  height: 55vh !important; }
-  @media screen and (max-width: 768px) {
-    .h40rem {
-      height: 60vh !important; } }
-  @media screen and (max-width: 480px) {
-    .h40rem {
-      height: 80vh !important; } }
+/*.h40rem{
+    height: 55vh !important;
 
+    @media screen and (max-width: $bp-small){
+        height: 60vh !important;
+    }
+    @media screen and (max-width: $bp-extra-small){
+        height: 80vh !important;
+    }
+
+}
+*/
 #show-hide {
   margin-top: 3rem;
   display: none; }
@@ -388,6 +391,11 @@ textarea::placeholder {
     font-weight: 400;
     font-size: 2.5rem; }
 
+.gallery__img-wrapper {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+
 .gallery__image {
   display: block;
   width: 100%;
@@ -471,10 +479,11 @@ textarea::placeholder {
     margin-top: auto;
     margin-bottom: auto;
     width: 100%;
-    padding: 1rem 6% !important;
-    padding-top: 6vh; }
+    padding: 1rem 6% !important; }
   .header__textbox {
-    height: calc(100vh - 20vh - 5rem); }
+    height: calc(100vh - 20vh - 5rem);
+    min-height: 600px;
+    margin-top: 5vh; }
   .header__title {
     font-size: 6rem;
     margin-bottom: 2rem;
@@ -592,6 +601,10 @@ textarea::placeholder {
     padding-bottom: 10rem;
     margin-left: auto;
     margin-right: auto; }
+    @media screen and (max-width: 768px) {
+      .subscribe__wrapper {
+        margin-left: 10vw;
+        margin-right: 10vw; } }
   .subscribe__text {
     width: 50%;
     text-align: justify; }
